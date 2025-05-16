@@ -13,7 +13,7 @@ const bedrockDataSource = backend.data.resources.graphqlApi.addHttpDataSource(
   "https://bedrock-runtime.us-east-1.amazonaws.com",
   {
     authorizationConfig: {
-      signingRegion: "ap-northeast-1",
+      signingRegion: "us-east-1",
       signingServiceName: "bedrock",
     },
   }
